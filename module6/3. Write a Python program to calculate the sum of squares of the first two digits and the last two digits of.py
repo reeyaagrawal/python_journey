@@ -1,0 +1,5 @@
+num=input("Enter a 4-digit number : ")
+start=int(num[0]+num[1])
+end=int(num[-2]+num[-1])
+ans=(start**2)+(end**2)
+print(ans)
